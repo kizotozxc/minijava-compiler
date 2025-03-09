@@ -34,6 +34,9 @@ enum class TokenType {
     MODULO,     // %
     NOT,        // !
     ASSIGN,     // =
+    NOT_EQUAL,  // !=
+    LESS_EQUAL, // <=
+    GREATER_EQUAL, // >=
     
     // Разделители
     LPAREN,     // (

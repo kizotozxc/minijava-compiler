@@ -1,5 +1,5 @@
 #pragma once
-#include "token.cpp"
+#include "token.h"
 #include <string>
 #include <vector>
 #include <unordered_map>

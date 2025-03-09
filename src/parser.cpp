@@ -2,7 +2,7 @@
 
 #include <iostream>
 
-#include "token.cpp"
+#include "token.h"
 
 Parser::Parser(const std::vector<Token>& tokens) : tokens(tokens), current(0) {}
 
