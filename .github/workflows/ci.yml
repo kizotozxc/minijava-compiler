@@ -25,4 +25,4 @@ jobs:
       run: ctest --test-dir build --output-on-failure
 
     - name: Run the compiler
-      run: ./build/minijava-compiler/minijava-compiler /test/test.java
+      run: ./bin/minijava_compiler /test/test.java
